@@ -40,8 +40,8 @@ public class Punto {
 		this.coordY = coordY;
 	}
 	 // método para devolver en un solo string las coordenadas del punto
-	public void infoPunto(){
-		System.out.format("%n Punto ( Posición X  : %.2f,  Posición Y:  %.2f)",
+	public String infoPunto(){
+		return String.format("%n Punto ( Posición X  : %.2f,  Posición Y:  %.2f)",
 				this.coordX, this.coordY);
 	}
 	
