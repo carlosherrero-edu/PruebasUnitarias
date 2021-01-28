@@ -12,6 +12,7 @@ class ConversoresTemperaturasTest {
 	void testConversorTemperaturask() {
 		
 		
+		
 		assertEquals(32.0, ConversoresTemperaturas.conversorTemperaturas(0,'c'), ERROR);
 		assertEquals(32.0, ConversoresTemperaturas.conversorTemperaturas(0,'C'),ERROR);
 	}
